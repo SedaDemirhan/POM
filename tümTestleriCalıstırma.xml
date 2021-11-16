@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="tüm testleri çalıştırma">
+    <test name="tüm test methodlarını calistirma">
+        <packages>
+            <package name=".*"></package>
+        </packages>
+    </test>
+</suite>
